@@ -1,0 +1,14 @@
+#app {
+    .el-form--inline .el-form-item {
+        padding-right: 10px;
+        border-right: 1px dashed #ccc;
+    }
+    .el-form--inline .el-form-item:nth-last-of-type(1) {
+        border: none;
+    }
+    .el-divider {
+        background: #39b3d7;
+        height: 2px;
+        border-radius: 1px;
+    }
+}
