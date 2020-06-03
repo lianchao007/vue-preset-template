@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lc
  * @Date: 2020-06-03 09:57:26
- * @LastEditTime: 2020-06-03 10:17:55
+ * @LastEditTime: 2020-06-03 10:29:46
  * @LastEditors: lc
  */ 
 module.exports = (api, options, rootOptions) => {
@@ -13,7 +13,8 @@ module.exports = (api, options, rootOptions) => {
     }
   })
 
-
+  console.log(JSON.stringify(option))
+  // console.log(JSON.stringify(option))
   if (options.module === 'module1') { 
     // options.module 可以访问上面问题数组的第一个对象的值，默认为: 'module0'
     console.log(`Your choice is ${options.module}`)
