@@ -1,14 +1,21 @@
+/*
+ * @Description: 
+ * @Author: lc
+ * @Date: 2020-06-03 09:57:26
+ * @LastEditTime: 2020-06-03 10:18:17
+ * @LastEditors: lc
+ */ 
 module.exports = [
   {
     type: 'list', // 即类型为 选择项
     name: 'module', // 名称，作为下面 generator 函数 options 的键
     message: '请选择你要生成的模块', // 提示语
     choices: [
-      { name: 'Module1', value: 'module1' },
-      { name: 'Module2', value: 'module2' },
-      { name: 'Module3', value: 'module3' }
+      { name: 'Module1', value: 'template1' },
+      { name: 'Module2', value: 'template' },
+      { name: 'Module3', value: 'template' }
     ],
-    default: 'module0',
+    default: 'template',
   },
   {
     type: 'input', // 类型为 输入项
