@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lc
  * @Date: 2020-06-03 10:16:22
- * @LastEditTime: 2020-06-03 15:49:41
+ * @LastEditTime: 2020-06-03 16:39:58
  * @LastEditors: lc
  */ 
 import Vue from 'vue'
@@ -21,7 +21,6 @@ import 'element-ui/lib/theme-chalk/index.css'
 import './assets/css/reset.css'
 import './assets/css/element-ui-reset.scss'
 import './assets/css/style.scss'
-import './assets/font/weather/iconfont.css'
 import './assets/font/iconfont.css'
 
 Vue.config.productionTip = false

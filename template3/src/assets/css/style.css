@@ -1,0 +1,42 @@
+
+.BMap_cpyCtrl {
+    display: none;
+}
+.anchorBL a{
+    display: none;
+}
+.BMap_scaleCtrl {
+    left: 25px!important;
+}
+.BMap_scaleTxt {
+    color: #fff!important;
+}
+@font-face {
+    font-family: QUARTZREGULAR;
+    src: url('../font/QUARTZ_REGULAR.TTF');
+}
+@font-face {
+    font-family: SourceHanSansCN;
+    src: url('../font/SourceHanSansCN-Regular.woff.ttf');
+}
+
+
+body .ordinary-form {
+    padding: 40px 40px 20px 20px;
+    margin: 0px 8px 10px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    background: url(../img/style/search_bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+body .ordinary-tableBox {
+    padding: 40px 30px 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/style/table_bg2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+body .ordinary-pagination {
+    padding: 5px 10px;
+    text-align: right;
+    margin: 15px 10px 5px 0;
+}

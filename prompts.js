@@ -13,7 +13,8 @@ module.exports = [
     choices: [
       { name: 'Default', value: 'template' },
       { name: 'Module1', value: 'template1' },
-      { name: 'Module2', value: 'template2' }
+      { name: 'Module2', value: 'template2' },
+      { name: 'Module3', value: 'template3' }
     ],
     default: 'template',
   },
