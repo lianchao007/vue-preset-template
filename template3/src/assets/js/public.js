@@ -1,5 +1,12 @@
+/*
+ * @Description:
+ * @Author: lc
+ * @Date: 2019-11-21 10:59:32
+ * @LastEditTime: 2020-06-04 11:21:23
+ * @LastEditors: lc
+ */
 export default {
-  tableH: 'calc(100% - 50px)',
+  tableH: 'calc(100% - 40px)',
   tableH2: '100%',
   addZero (num) {
     return num < 10 ? '0' + num : num

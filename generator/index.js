@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: lc
  * @Date: 2020-06-03 09:57:26
- * @LastEditTime: 2020-06-03 15:09:53
+ * @LastEditTime: 2020-06-05 08:32:44
  * @LastEditors: lc
  */ 
 module.exports = (api, options, rootOptions) => {
@@ -21,6 +21,20 @@ module.exports = (api, options, rootOptions) => {
   })
 
   if (options.module === 'template2') {
+    api.extendPackage({
+      dependencies: {
+        "core-js": "^3.4.3",
+        "echarts": "^4.2.1",
+        "element-ui": "^2.10.0",
+        "file-saver": "^2.0.2",
+        "intro.js": "^2.9.3",
+        "vue": "^2.6.10",
+        "vue-router": "^3.1.3",
+        "xlsx": "^0.14.3",
+        "xlsx-style": "^0.8.13"
+      }
+    })
+  } else if(options.module === 'template3') {
     api.extendPackage({
       dependencies: {
         "core-js": "^3.4.3",

@@ -1,6 +1,7 @@
 :root {
     --font-color: #cce5f9;
     --font-color2: #329ab7;
+    --border-color: #065a9e;
 }
 /* 菜单 */
 body .el-menu {
@@ -212,6 +213,9 @@ body .el-date-editor.el-range-editor {
     padding: 0;
 
 }
+body .el-month-table td.in-range div, body .el-month-table td.in-range div:hover {
+    background-color: #4d7cc1;
+}
 body .el-form-item__label {
     color: #fbfdff;
 }
@@ -294,14 +298,19 @@ body .el-collapse-item__content {
 /* 卡片 */
 body .el-card {
     background: transparent;
+    border-color: var(--border-color);
 }
 body .el-card__header {
     padding: 8px 10px;
     color: #fff;
     line-height: 28px;
+    border-color: var(--border-color);
+    background: #032440;
 }
 body .el-card__body {
-    padding: 15px;
+    padding: 10px;
+    border-color: var(--border-color);
+    background: #093b63;
 }
 
 /* 蒙版 */

@@ -5,10 +5,10 @@
                 <el-input v-model="form.number" style="width: 160px;" placeholder="输入单据编号"></el-input>
             </el-form-item>
             <el-form-item label="车号" prop="ownPlateNo">
-                <el-input v-model="form.ownPlateNo" style="width: 160px;" placeholder="输入车号"></el-input>
-            </el-form-item>
-            <el-form-item label="车牌号" prop="plateNo">
-                <el-input v-model="form.plateNo" style="width: 160px;" placeholder="输入车牌号"></el-input>
+                <el-select v-model="form.ownPlateNo" filterable clearable style="width: 200px;">
+                    <el-option label="全部" value=""></el-option>
+                    <el-option :label="it.plateNo + '(' + it.ownPlateNo + ')'" :value="it.ownPlateNo" v-for="it in vehicleOption" :key="it.ownPlateNo"></el-option>
+                </el-select>
             </el-form-item>
             <el-form-item label="日期选择" prop="day">
               <el-date-picker clearable v-model="form.day" type="date" value-format="yyyy-MM-dd" style="width: 160px;" placeholder="日期选择"></el-date-picker>

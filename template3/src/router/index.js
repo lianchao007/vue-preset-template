@@ -38,27 +38,26 @@ export default new Router({
       name: '诸暨仓储管理系统',
       component: Home,
       beforeEnter  (to, from, next) {
-        next()
-        // let fsId = GetQueryString('fsId') || window.localStorage.fsId
-        // let ticket = GetQueryString('ticket') || window.localStorage.ticket
-        // window.localStorage.ticket = ticket
-        // window.localStorage.fsId = fsId
-        // vm.$http.post('/webwms/api/welcome/loginNew', {fsId: fsId, ticket: ticket}, { emulateJSON: true }).then(response => {
-        //   // 登录成功后获取该用户的线路
-        //   let res = response.body
-        //   Vue.prototype.$loading = false
-        //   if (res.success) {
-        //     console.log(res.data)
-        //     Vue.prototype.$user = res.data
-        //     next()
-        //   } else {
-        //     vm.$message.error(res.msg || '请求失败')
-        //     next()
-        //   }
-        // },
-        // response => {
-        //   vm.$message.error('请求失败')
-        // })
+        let fsId = GetQueryString('fsId') || window.localStorage.fsId
+        let ticket = GetQueryString('ticket') || window.localStorage.ticket
+        window.localStorage.ticket = ticket
+        window.localStorage.fsId = fsId
+        vm.$http.post('/webwms/api/welcome/loginNew', {fsId: fsId, ticket: ticket}, { emulateJSON: true }).then(response => {
+          // 登录成功后获取该用户的线路
+          let res = response.body
+          Vue.prototype.$loading = false
+          if (res.success) {
+            console.log(res.data)
+            Vue.prototype.$user = res.data
+            next()
+          } else {
+            vm.$message.error(res.msg || '请求失败')
+            next()
+          }
+        },
+        response => {
+          vm.$message.error('请求失败')
+        })
       },
       children: [
         {

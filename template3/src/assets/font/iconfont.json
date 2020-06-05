@@ -1,16 +1,79 @@
 {
-  "id": "1540542",
-  "name": "webwms2",
+  "id": "1862984",
+  "name": "webwms-frontend",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
     {
-      "icon_id": "338388",
+      "icon_id": "5252503",
+      "name": "记录",
+      "font_class": "jilu1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "7674895",
+      "name": "记录",
+      "font_class": "lianluojilu",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "7992451",
+      "name": "库存",
+      "font_class": "kucun-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "13468936",
+      "name": "库存",
+      "font_class": "kucun",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "6129336",
+      "name": "290保养、加油",
+      "font_class": "baoyangjiayou",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "7711489",
+      "name": "加油站",
+      "font_class": "jiayouzhan",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "13700281",
+      "name": "加油",
+      "font_class": "ziyuan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "604480",
+      "name": "报表",
+      "font_class": "baobiao",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9752796",
+      "name": "基础",
+      "font_class": "jichu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "339472",
       "name": "维修",
       "font_class": "weixiu",
-      "unicode": "e624",
-      "unicode_decimal": 58916
+      "unicode": "e63a",
+      "unicode_decimal": 58938
     },
     {
       "icon_id": "479383",
@@ -27,6 +90,13 @@
       "unicode_decimal": 58883
     },
     {
+      "icon_id": "796463",
+      "name": "车辆信息",
+      "font_class": "cheliangxinxi",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
       "icon_id": "974788",
       "name": "车型",
       "font_class": "chexing",
@@ -41,67 +111,39 @@
       "unicode_decimal": 59405
     },
     {
+      "icon_id": "1156037",
+      "name": "车巴巴-油耗1",
+      "font_class": "typecar112",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "1314157",
+      "name": "车辆配件消耗汇总",
+      "font_class": "cheliangpeijianxiaohaohuizong",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
       "icon_id": "1314159",
       "name": "配件入库统计",
       "font_class": "peijianrukutongji",
-      "unicode": "e612",
-      "unicode_decimal": 58898
+      "unicode": "e613",
+      "unicode_decimal": 58899
     },
     {
       "icon_id": "1314161",
       "name": "配件出库统计",
       "font_class": "peijianchukutongji",
-      "unicode": "e613",
-      "unicode_decimal": 58899
-    },
-    {
-      "icon_id": "1314162",
-      "name": "配件库存统计",
-      "font_class": "peijiankucuntongji",
       "unicode": "e614",
       "unicode_decimal": 58900
     },
     {
-      "icon_id": "2945762",
-      "name": "车辆资料",
-      "font_class": "cheliangziliao",
-      "unicode": "e605",
-      "unicode_decimal": 58885
-    },
-    {
-      "icon_id": "2959006",
-      "name": "车辆油耗成本",
-      "font_class": "cheliangyouhaochengben",
-      "unicode": "e618",
-      "unicode_decimal": 58904
-    },
-    {
-      "icon_id": "3216612",
-      "name": "基础信息",
-      "font_class": "jichuxinxi",
-      "unicode": "e68d",
-      "unicode_decimal": 59021
-    },
-    {
-      "icon_id": "4719761",
-      "name": "营收报表",
-      "font_class": "yingshoubaobiao",
-      "unicode": "e6b2",
-      "unicode_decimal": 59058
-    },
-    {
-      "icon_id": "5092860",
-      "name": "收入",
-      "font_class": "income-o",
-      "unicode": "e629",
-      "unicode_decimal": 58921
-    },
-    {
-      "icon_id": "5269212",
-      "name": "库存",
-      "font_class": "kucun",
-      "unicode": "e620",
-      "unicode_decimal": 58912
+      "icon_id": "1354921",
+      "name": "现金贷",
+      "font_class": "xianjindai",
+      "unicode": "e622",
+      "unicode_decimal": 58914
     },
     {
       "icon_id": "6789079",
@@ -111,25 +153,18 @@
       "unicode_decimal": 58930
     },
     {
-      "icon_id": "8240381",
-      "name": "报警信息统计与分析",
-      "font_class": "baojingxinxitongjiyufenxi",
-      "unicode": "e660",
-      "unicode_decimal": 58976
+      "icon_id": "6844424",
+      "name": "配件管理",
+      "font_class": "peijianguanli",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
     },
     {
-      "icon_id": "10131705",
-      "name": "零配件维修",
-      "font_class": "lingpeijianweixiu",
-      "unicode": "e63b",
-      "unicode_decimal": 58939
-    },
-    {
-      "icon_id": "11746059",
-      "name": "加油枪",
-      "font_class": "jiayouqiang",
-      "unicode": "e604",
-      "unicode_decimal": 58884
+      "icon_id": "7466532",
+      "name": "呵护，成长，赚钱，营收",
+      "font_class": "huabanfuben",
+      "unicode": "e695",
+      "unicode_decimal": 59029
     }
   ]
 }

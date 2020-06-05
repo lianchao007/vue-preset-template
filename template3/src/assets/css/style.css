@@ -23,8 +23,8 @@
 
 body .ordinary-form {
     padding: 40px 40px 20px 20px;
-    margin: 0px 8px 10px;
-    width: calc(100% - 16px);
+    margin: 0px 10px 10px;
+    width: calc(100% - 20px);
     box-sizing: border-box;
     background: url(../img/style/search_bg.png) no-repeat center center;
     background-size: 100% 100%;
@@ -38,5 +38,5 @@ body .ordinary-tableBox {
 body .ordinary-pagination {
     padding: 5px 10px;
     text-align: right;
-    margin: 15px 10px 5px 0;
+    margin: 5px 10px 5px 0;
 }

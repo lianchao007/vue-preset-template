@@ -1,8 +1,15 @@
-# vue-preset-template
-Dead simple Vue preset template for learning use.
+<!--
+ * @Description: 
+ * @Author: lc
+ * @Date: 2020-06-03 09:57:06
+ * @LastEditTime: 2020-06-05 08:29:00
+ * @LastEditors: lc
+--> 
+# template1
+常规模板
 
-# Usage
-Just clone it and edit.
+# template2
+扁平化模板
 
-# Posts
-- [10分钟搭建属于自己的 Vue CLI3 项目模板](https://savokiss.com/tech/vue-cli3-preset.html)
+# template3
+暗黑风格模板模板
